@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ifit.com</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">⚡ <span>Ifit</span></div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#missao">Missão</a></li>
+        <li><a href="#setores">Setores</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><button id="modoBtn">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Bem-vindo à <span>Ifit</span></h1>
+    <p>Democratizando o acesso à atividade física de qualidade para todos.</p>
+    <button class="btn" onclick="rolarPara('missao')">Saiba Mais</button>
+  </section>
+
+  <section id="missao" class="missao">
+    <h2>Nossa Missão</h2>
+    <p>
+      Na <strong>Ifit</strong>, acreditamos que o bem-estar e a saúde devem estar ao alcance de todos.
+      Nossa missão é <strong>democratizar o acesso</strong> a atividades físicas de qualidade, conectando pessoas a academias e centros de treinamento de forma acessível, flexível e inteligente.
+    </p>
+  </section>
+
+  <section id="setores" class="setores">
+    <h2>Nossos Setores</h2>
+
+    <div class="setor">
+      <h3>Recursos Humanos (RH)</h3>
+      <p>O RH na Ifit tem a função de cuidar da equipe, desde a contratação até o desenvolvimento. Ele garante que os colaboradores estejam bem treinados, motivados e organizados, para oferecer um bom atendimento aos clientes.</p>
+      <ul>
+        <li><strong>Líder:</strong> Yasmin Silva</li>
+        <li><strong>Colaboradores:</strong> Júlia Beatriz, Lorrany e Gabriela</li>
+        <li><strong>Função:</strong> Cuidar da equipe desde a contratação até o desenvolvimento.</li>
+        <li><strong>Como funciona:</strong> Atua como um setor de apoio e gestão de pessoas.</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>Financeiro</h3>
+      <p>O setor financeiro abrange o planejamento, o controle e a análise de todas as movimentações de dinheiro do negócio, garantindo sustentabilidade e crescimento.</p>
+      <ul>
+        <li><strong>Gestor:</strong> Ryan Henrique</li>
+        <li><strong>Colaboradores:</strong> Luis, Aron, Katianne e Ana</li>
+        <li><strong>Atividades:</strong> Planejamento financeiro, controle de fluxo de caixa, análise de rentabilidade e decisões estratégicas.</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>Marketing</h3>
+      <p>O setor de marketing da Ifit é o motor de crescimento da empresa, combinando estratégias de conteúdo, performance e relacionamento.</p>
+      <ul>
+        <li><strong>Gestora:</strong> Ana Terumi Parreira Salema</li>
+        <li><strong>Colaboradores:</strong> Fernanda, Isabela, Guilherme, Maria Eduarda</li>
+      </ul>
+      <p><strong>Funções do setor:</strong></p>
+      <ul>
+        <li>Marketing de Conteúdo — criação de artigos, vídeos e histórias de sucesso.</li>
+        <li>Marketing Digital e de Performance — campanhas otimizadas no Google e redes sociais.</li>
+        <li>Marketing de Influência — parcerias com atletas e influenciadores.</li>
+        <li>CRM — comunicação com usuários e fidelização.</li>
+        <li>Branding e Comunicação — reforço da identidade e valores da marca.</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>Administração (ADM)</h3>
+      <p>Responsável pela organização e funcionamento da empresa, controle de materiais e fornecedores, manutenção e comunicação interna.</p>
+      <ul>
+        <li><strong>Gestora:</strong> </li>
+        <li><strong>Colaboradores:</strong> </li>
+        </ul>
+      <p><strong>Funções do Setor:</strong></p>
+      <ul>
+        <li>Gestão de estrutura e materiais</li>
+        <li>Solicitação de manutenção</li>
+        <li>Planejamento estratégico e metas</li>
+        <li>Análise de relatórios e reuniões internas</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>SAG (Atendimento Geral)</h3>
+      <ul>
+        <li><strong>Gestora:</strong> </li>
+        <li><strong>Colaboradores:</strong> </li>
+        </ul>
+      <p><strong>Funções do Setor:</strong></p>
+      <ul>
+        <li>Rapidez na resolução de chamados</li>
+        <li>Equipe qualificada e atendimento humanizado</li>
+        <li>Uso de tecnologia e foco na satisfação do cliente</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>SAC (Atendimento Externo)</h3>
+      <ul>
+        <li>Suporte direto ao cliente e usuário final</li>
+        <li>Acompanhamento de dúvidas e solicitações</li>
+        <li>Resolução ágil e eficaz de problemas</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>SAT (Atendimento Interno)</h3>
+      <ul>
+        <li>Suporte aos colaboradores</li>
+        <li>Resolução de problemas técnicos</li>
+        <li>Comunicação entre setores</li>
+        <li>Treinamentos e orientações internas</li>
+      </ul>
+    </div>
+
+    <div class="setor">
+      <h3>Tecnologia da Informação (TI)</h3>
+      
+      <p>Na Ifit, acreditamos que a tecnologia tem o poder de transformar vidas. Nosso setor de TI usa o melhor da inovação digital para conectar pessoas a experiências saudáveis e motivadoras.</p>
+        <ul>
+        <li><strong>Gestor: Pedro Magalhães</strong> </li>
+        <li><strong>Colaboradores: Miguel Correa Neto, Guilherme Barbosa, João Rodrigues, </strong> </li>
+        </ul>
+      <p><strong>Funções do Setor:</strong></p>
+      <ul>
+        <li>Análise de dados em tempo real</li>
+        <li>Plataformas em nuvem seguras</li>
+        <li>Soluções de segurança da informação</li>
+        <li>Integrações com dispositivos de bem-estar</li>
+        <li>Aplicação de IA e Internet das Coisas</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <form onsubmit="enviarFormulario(event)">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <textarea id="mensagem" placeholder="Sua mensagem..." required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <p id="feedback"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Ifit | Promovendo Saúde, Inclusão e Bem-Estar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
